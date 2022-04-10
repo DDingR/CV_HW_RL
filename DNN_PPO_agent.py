@@ -7,7 +7,7 @@ from tensorflow.keras.layers import Dense, Lambda
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.initializers import RandomUniform
 # import matplotlib.pyplot as plt
-from datetime import datetime
+import random
 
 def shape_check(array, shape):
     assert array.shape == shape, \
@@ -86,11 +86,12 @@ class DNN_PPO_Agent:
         self.Critic_learning_rate = parameters['learning_rate']['critic']
         self.gamma = parameters['gamma']
         self.RATIO_CLIPPING = parameters['clip_ratio'] # clip coefficient
-        self.MAX_BATCH_SIZE = parameters['max_batch_size']
+        self.MAX_BUFFER_SIZE = parameters['max_buffer_size']
+        self.batch_size = parameters['batch_size']
         self.EPOCH = parameters['epoch']
         self.GAE_param = parameters['GAE_param']
-        # batch
-        self.batch = []
+        # buffer
+        self.buffer = []
 
         # model define
         self.Actor_model = Actor(self.action_dim, self.action_bound, self.state_dim)
@@ -149,7 +150,7 @@ class DNN_PPO_Agent:
         return action
     
     def sample_append(self, state, action, reward, next_state, done):
-        self.batch.append(
+        self.buffer.append(
             [
                 state,
                 action,
@@ -166,17 +167,17 @@ class DNN_PPO_Agent:
         next_value = self.Critic_model(
             tf.convert_to_tensor(next_state_list)
         )
-        reward_list = np.reshape(reward_list, [self.MAX_BATCH_SIZE, 1])
-        done_list = np.reshape(done_list, [self.MAX_BATCH_SIZE, 1])
+        reward_list = np.reshape(reward_list, [self.batch_size, 1])
+        done_list = np.reshape(done_list, [self.batch_size, 1])
         value = value.numpy()
         next_value = next_value.numpy()
 
-        done = done_list[self.MAX_BATCH_SIZE-1][0]
-        # next_value = next_value[self.MAX_BATCH_SIZE-1][0]
+        done = done_list[self.batch_size-1][0]
+        # next_value = next_value[self.MAX_BUFFER_SIZE-1][0]
         # print(done)
         if done:
             # print("0s")
-            next_value[self.MAX_BATCH_SIZE-1][0] = 0
+            next_value[self.MAX_BUFFER_SIZE-1][0] = 0
 
         delta_list = reward_list + self.gamma * next_value - value
         delta_list = np.flip(delta_list)
@@ -190,7 +191,7 @@ class DNN_PPO_Agent:
             else:
                 GAE.append(delta + self.gamma * self.GAE_param * GAE[i-1])
         GAE = np.flip(GAE)
-        GAE = np.reshape(GAE, [self.MAX_BATCH_SIZE, 1])
+        GAE = np.reshape(GAE, [self.batch_size, 1])
         
         target = GAE + value
         # print(GAE.shape, value.shape)
@@ -201,7 +202,7 @@ class DNN_PPO_Agent:
             tf.convert_to_tensor(state_list)
         )
         predict = predict.numpy()
-        shape_check(predict, (self.MAX_BATCH_SIZE, 1))
+        # shape_check(predict, (self.batch_size, 1))
         next_value = 0
         next_GAE = 0
 
@@ -212,21 +213,21 @@ class DNN_PPO_Agent:
                 )
             )
             next_value = next_value.numpy()
-            shape_check(next_value, (1, 1))
+            # shape_check(next_value, (1, 1))
         
-        reward_list = np.reshape(reward_list, [self.MAX_BATCH_SIZE, 1])
-        shape_check(reward_list, (self.MAX_BATCH_SIZE, 1))
+        reward_list = np.reshape(reward_list, [self.batch_size, 1])
+        # shape_check(reward_list, (self.batch_size, 1))
         delta = np.zeros_like(reward_list)
         GAE = np.zeros_like(reward_list)
 
-        for i in reversed(range(0, self.MAX_BATCH_SIZE)):
+        for i in reversed(range(0, self.batch_size)):
             delta[i] = reward_list[i] + self.gamma * next_value - predict[i]
             GAE[i] = delta[i] + self.gamma * self.GAE_param * next_GAE
             next_value = predict[i]
             next_GAE = GAE[i]
 
         target = GAE + predict
-        shape_check(target, (self.MAX_BATCH_SIZE, 1))
+        # shape_check(target, (self.batch_size, 1))
         return GAE, target
 
     def Critic_train(self, target_list, state_list):
@@ -258,29 +259,30 @@ class DNN_PPO_Agent:
 
     def train(self):
 
-        if len(self.batch) < self.MAX_BATCH_SIZE:
+        if len(self.buffer) < self.MAX_BUFFER_SIZE:
             return
-
-        # print("train!")
-        state_list = [sample[0][0] for sample in self.batch]
-        action_list = [sample[1][0] for sample in self.batch]
-        reward_list = [sample[2][0] for sample in self.batch]
-        next_state_list = [sample[3][0] for sample in self.batch]
-        done_list = [sample[4][0] for sample in self.batch]
-
-        # GAE, target = self.GAE_target(state_list, reward_list, next_state_list, done_list)
-        GAE, target = self.GAE_target_test(state_list, reward_list, next_state_list[self.MAX_BATCH_SIZE-1], done_list[self.MAX_BATCH_SIZE-1])
-
-        mu, std = self.Actor_model(
-            tf.convert_to_tensor(state_list)
-        )
-        old_log_pdf = self.log_pdf(mu, std, action_list)        
-
+        
         for _ in range(self.EPOCH):
+            # print("train!")  
+            batch = random.sample(self.buffer, self.batch_size) 
+            state_list = [sample[0][0] for sample in batch]
+            action_list = [sample[1][0] for sample in batch]
+            reward_list = [sample[2][0] for sample in batch]
+            next_state_list = [sample[3][0] for sample in batch]
+            done_list = [sample[4][0] for sample in batch]
+
+            # GAE, target = self.GAE_target(state_list, reward_list, next_state_list, done_list)
+            GAE, target = self.GAE_target_test(state_list, reward_list, next_state_list[self.batch_size-1], done_list[self.batch_size-1])
+
+            mu, std = self.Actor_model(
+                tf.convert_to_tensor(state_list)
+            )
+            old_log_pdf = self.log_pdf(mu, std, action_list)        
+
             self.Critic_train(target, state_list)
             self.Actor_train(state_list, action_list, old_log_pdf, GAE)
-        
-        self.batch.clear()
+            
+        self.buffer.clear()
 
     # 텐서보드에 학습 정보를 기록
     def draw_tensorboard(self, score, step, episode):

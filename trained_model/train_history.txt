@@ -1,11 +1,11 @@
-TRAIN INFO
+
+TRAIN INFO	04110051
 train name: train1
 env_path: ./envs/3Dball_example/3dBall1.x86_64
 case_name: 0
 load network: ./NOT_LOADED
-=================================================TRAIN INFO
-train name: train2
-env_path: ./envs/3Dball_example/3dBall1.x86_64
-case_name: 0
-load network: ./NOT_LOADED
+
+state_dim: 8
+action_dim: 8
+action_bound: 8
 =================================================
