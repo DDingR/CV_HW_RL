@@ -1,0 +1,6 @@
+TRAIN INFO
+train name: train1
+env_path: ./envs/3Dball_example/3dBall1.x86_64
+case_name: 0
+load network: ./NOT_LOADED
+=================================================

@@ -1,0 +1,12 @@
+3Dball1
+    just for test code
+
+env1
+    state_dim:      9
+        agent_pos, target_pos, agent_vel
+    action_dim:     3
+        xyz quaternion
+    action_bound:   1.0
+
+    description:
+        used raycast (hit box)
