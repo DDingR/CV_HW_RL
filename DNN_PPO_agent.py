@@ -106,6 +106,15 @@ class DNN_PPO_Agent:
             # clipnorm=1.0
         )
 
+        with open("./trained_model/train_history.txt", 'a') as f:
+            f.write(
+                "\n\n" + 
+                "state_dim: " + str(self.state_dim) + '\n' +
+                "action_dim: " + str(self.state_dim) + '\n' +
+                "action_bound: " + str(self.state_dim) + '\n' +
+                "=================================================" 
+            )
+
         # summary
         self.Actor_model.summary()
         self.Critic_model.summary()

@@ -1,4 +1,3 @@
-from re import A
 from mlagents_envs.environment import UnityEnvironment, ActionTuple
 from mlagents_envs.side_channel.engine_configuration_channel import EngineConfigurationChannel
 
@@ -14,9 +13,6 @@ def shape_check(array, shape):
         'shape error | array.shape ' + str(array.shape) + ' shape: ' + str(shape)
 
 def main(args):
-    if 'args.load_network_path' in locals():
-        raise Exception('not ready')
-
     # 환경 정의 및 설정 
     engine_configuration_channel = EngineConfigurationChannel()
     env = UnityEnvironment(args.env_path, 
@@ -171,12 +167,11 @@ if __name__=='__main__':
     if args.train:
         with open("./trained_model/train_history.txt", 'a') as f:
             f.write(
-                "TRAIN INFO\n" + 
+                "\nTRAIN INFO\t" + now + '\n' +
                 "train name: " + str(args.train_name) + '\n' + 
                 "env_path: " + str(args.env_path) + '\n' + 
                 "case_name: " + str(args.case_num) + '\n' + 
-                "load network: " + str(args.load_network_path) + '\n' +
-                "=================================================\n" 
+                "load network: " + str(args.load_network_path)
             )    
 
     main(args)
