@@ -10,3 +10,12 @@ env1
 
     description:
         used raycast (hit box)
+
+env2 (not built yet)
+    state_dim:      (##, ##, 3)
+        raw RGB pixel
+    action_dim:     3
+    action_bound:   1.0
+
+    description:
+        

@@ -1,10 +1,10 @@
 
 # 시작하기 앞서
 
-- MacOS와 Ubuntu 18을 사용하여 개발함
-- ML-agent release##를 사용함
-- Unity version ###을 사용함
-- tensorflow ###를 사용함
+- MacOS와 Ubuntu 18.04 LTS을 사용하여 개발함
+- ML-agent release19를 사용함
+- Unity version 2020.3을 사용함
+- tensorflow 2.7를 사용함
 - 
 ## 전체적인 구조
 
