@@ -11,11 +11,12 @@ env1
     description:
         used raycast (hit box)
 
-env2 (not built yet)
-    state_dim:      (##, ##, 3)
-        raw RGB pixel
+env2 
+    state_dim:      
+        raw RGB pixel (84 * 84 * 3)
     action_dim:     3
     action_bound:   1.0
 
     description:
-        
+        used image camera 
+        decision period 20 -> 10        
