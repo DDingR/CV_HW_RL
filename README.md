@@ -22,7 +22,7 @@
 1. obercvation vector와 image기반 학습 중 어느 케이스가 성능이 더 좋은가 ( 1 vs 2, 3 )
 2. cv로 추출한 특징과 이미지 추출 네트워크를 통한 특징 중 어느 케이스가 더 좋은가 ( 2 vs 3 )
 
-![img](./docs/image/screenshot1.png)
+![img](./docs/image/env1_demo.gif)
 
 ## 강화학습에 대한 간단한 정보
 
