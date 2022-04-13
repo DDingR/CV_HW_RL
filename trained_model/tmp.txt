@@ -1,0 +1,56 @@
+
+TRAIN INFO	04110051
+train name: train1
+env_path: ./envs/3Dball_example/3dBall1.x86_64
+case_name: 0
+load network: ./NOT_LOADED
+
+state_dim: 8
+action_dim: 8
+action_bound: 8
+=================================================
+TRAIN INFO	04112203
+train name: Ubuntu20_test
+env_path: ./envs/env1/env1.x86_64
+case_name: 0
+load network: ./NOT_LOADED
+TRAIN INFO	04121408
+train name: Ubuntu20_test
+env_path: ./envs/env1/env1.x86_64
+case_name: 0
+load network: ./NOT_LOADED
+
+state_dim: 8
+action_dim: 8
+action_bound: 8
+=================================================
+TRAIN INFO	04121409
+train name: Ubuntu20_test
+env_path: ./envs/3Dball_example/3dBall1.x86_64
+case_name: 0
+load network: ./NOT_LOADED
+
+state_dim: 8
+action_dim: 8
+action_bound: 8
+=================================================
+TRAIN INFO	04131322
+train name: env1_train1
+env_path: ./envs/env1/env1.x86_64
+case_name: 0
+load network: ./NOT_LOADED
+
+state_dim: 9
+action_dim: 9
+action_bound: 9
+=================================================
+TRAIN INFO	04131323
+train name: env1_train1
+env_path: ./envs/env1/env1.x86_64
+case_name: 0
+load network: ./NOT_LOADED
+
+state_dim: 9
+action_dim: 9
+action_bound: 9
+=================================================

@@ -1,16 +1,12 @@
-
-TRAIN INFO	04110051
-train name: train1
-env_path: ./envs/3Dball_example/3dBall1.x86_64
+TRAIN INFO	0413
+train name: CV_Env1_1
+env_path: env1
 case_name: 0
 load network: ./NOT_LOADED
 
-state_dim: 8
-action_dim: 8
-action_bound: 8
+state_dim: 9
+action_dim: 3
+action_bound: 1.0
+
+parameters: CV_Env1.yaml * USED ML-AGENT *
 =================================================
-TRAIN INFO	04112203
-train name: Ubuntu20_test
-env_path: ./envs/env1/env1.x86_64
-case_name: 0
-load network: ./NOT_LOADED

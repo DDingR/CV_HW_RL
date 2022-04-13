@@ -21,10 +21,10 @@ def main(args):
     env.reset()
 
     # agent
-    action_dim = 2 # xyz Quart...
+    action_dim = 3 # xyz Quart...
     action_bound = 1 # max_input 
     if args.case_num ==  0:
-        state_dim = 8 # not defined
+        state_dim = 9 # not defined
         agent = DNN_PPO_Agent(state_dim, action_dim, action_bound, args)
     elif args.case_num ==  1:
         state_dim = 3 # not defined
@@ -157,15 +157,19 @@ if __name__=='__main__':
                         default=False, dest='train', action='store_true',
                         help='add this arg to train')
     parser.add_argument('--load_network', type=str,
-                        default='./NOT_LOADED', dest='load_network_path', action='store',
+                        default='NOT_LOADED', dest='load_network_path', action='store',
                         help='to load trained network add path e.g. --load_network \'./...\'')
     parser.add_argument('--time_scale', type=float, 
                         default=20.0, dest='time_scale', action="store",
                         help='to accellerate simul (consider you PC spec)')
+    parser.add_argument('--parameters', type=str, 
+                        default='./config/parameters.json', dest='param_path', action="store",
+                        help='NN parameters')
+    
     args = parser.parse_args()
 
     if args.train:
-        with open("./trained_model/train_history.txt", 'a') as f:
+        with open("./trained_model/tmp.txt", 'a') as f:
             f.write(
                 "\nTRAIN INFO\t" + now + '\n' +
                 "train name: " + str(args.train_name) + '\n' + 

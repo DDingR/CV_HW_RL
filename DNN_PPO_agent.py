@@ -79,7 +79,7 @@ class DNN_PPO_Agent:
         self.std_bound = [1e-2, 1.0]
 
         # hyperparameters
-        with open("./parameter.json", 'r') as f:
+        with open(args.param_path, 'r') as f:
             parameters = json.load(f)
 
         self.Actor_learning_rate = parameters['learning_rate']['actor']
@@ -107,12 +107,13 @@ class DNN_PPO_Agent:
             # clipnorm=1.0
         )
 
-        with open("./trained_model/train_history.txt", 'a') as f:
+        with open("./trained_model/tmp.txt", 'a') as f:
             f.write(
                 "\n\n" + 
                 "state_dim: " + str(self.state_dim) + '\n' +
-                "action_dim: " + str(self.state_dim) + '\n' +
-                "action_bound: " + str(self.state_dim) + '\n' +
+                "action_dim: " + str(self.action_dim) + '\n' +
+                "action_bound: " + str(self.action_bound) + '\n\n' +
+                "parameters: " + args.param_path + '\n' +
                 "=================================================" 
             )
 
