@@ -2,11 +2,41 @@ TRAIN INFO	0413
 train name: CV_Env1_1
 env_path: env1
 case_name: 0
-load network: ./NOT_LOADED
+load network: NOT_LOADED
 
 state_dim: 9
 action_dim: 3
 action_bound: 1.0
-
 parameters: CV_Env1.yaml * USED ML-AGENT *
+
+episode: 
+reward: over 10
+=================================================
+TRAIN INFO	0413
+train name: CV_Env2_1
+env_path: env2
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: 9
+action_dim: 3
+action_bound: 1.0
+parameters: CV_Env1.yaml * USED ML-AGENT *
+
+episode: 7753152(step)
+reward: 7.156 (std: 3.877)
+=================================================
+TRAIN INFO	0414
+train name: CV_Env2.1_1
+env_path: env2.1
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: 9
+action_dim: 3
+action_bound: 1.0
+parameters: CV_Env1.yaml * USED ML-AGENT *
+
+episode: 
+reward: 
 =================================================

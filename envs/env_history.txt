@@ -18,5 +18,14 @@ env2
     action_bound:   1.0
 
     description:
+        used image camera      
+
+env2.1
+    state_dim:      
+        raw RGB pixel (256 * 256 * 3)
+    action_dim:     3
+    action_bound:   1.0
+
+    description:
         used image camera 
-        decision period 20 -> 10        
+        better resolution of image

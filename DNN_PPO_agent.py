@@ -112,8 +112,10 @@ class DNN_PPO_Agent:
                 "\n\n" + 
                 "state_dim: " + str(self.state_dim) + '\n' +
                 "action_dim: " + str(self.action_dim) + '\n' +
-                "action_bound: " + str(self.action_bound) + '\n\n' +
-                "parameters: " + args.param_path + '\n' +
+                "action_bound: " + str(self.action_bound) + '\n' +
+                "parameters: " + args.param_path + '\n\n' +
+                "episode: \n" +
+                "reward: \n" 
                 "=================================================" 
             )
 
