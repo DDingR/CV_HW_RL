@@ -14,7 +14,7 @@ def shape_check(array, shape):
 
 def main(args):
     # 환경 정의 및 설정 
-    engine_configuratioln_channel = EngineConfigurationChannel()
+    engine_configuration_channel = EngineConfigurationChannel()
     env = UnityEnvironment(args.env_path, 
                            worker_id=np.random.randint(65535),
                            side_channels=[engine_configuration_channel])
@@ -43,7 +43,7 @@ def main(args):
     max_score = 1e-9
     EPISODE = 100000
 
-    # 전체 진행을 위한 반복문 (10 에피소드 반복)
+    # 전체 진행을 위한 반복문 
     for e in range(EPISODE):
         # 환경 초기화 
         env.reset()
@@ -169,7 +169,7 @@ if __name__=='__main__':
                         default=20.0, dest='time_scale', action="store",
                         help='to accellerate simul (consider you PC spec)')
     parser.add_argument('--parameters', type=str, 
-                        default='./config/parameter.json', dest='param_path', action="store",
+                        default='./config/PPO_parameter.json', dest='param_path', action="store",
                         help='NN parameters')
     
     args = parser.parse_args()
@@ -178,6 +178,7 @@ if __name__=='__main__':
         with open("./trained_model/tmp.txt", 'a') as f:
             f.write(
                 "\nTRAIN INFO\t" + now + '\n' +
+                "NN: PPO\n" 
                 "train name: " + str(args.train_name) + '\n' + 
                 "env_path: " + str(args.env_path) + '\n' + 
                 "case_name: " + str(args.case_num) + '\n' + 

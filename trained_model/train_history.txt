@@ -40,4 +40,18 @@ parameters: CV_Env1.yaml * USED ML-AGENT *
 episode: 
 reward: 
 =================================================
+TRAIN INFO	04171545
+NN: SAC
+train name: sac_tmp
+env_path: ./envs/3Dball_example/3dBall1.x86_64
+case_name: 0
+load network: NOT_LOADED
 
+state_dim: 8
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================

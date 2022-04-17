@@ -1,225 +1,75 @@
 
-TRAIN INFO	04110051
-train name: train1
-env_path: ./envs/3Dball_example/3dBall1.x86_64
+TRAIN INFO	04180243
+NN: SAC
+train name: autoDroneGPS_train_test1
+env_path: ./envs/autoDroneGPS/autoDroneGPS.x86_64
 case_name: 0
-load network: ./NOT_LOADED
+load network: NOT_LOADED
 
 state_dim: 8
-action_dim: 8
-action_bound: 8
-=================================================
-TRAIN INFO	04112203
-train name: Ubuntu20_test
-env_path: ./envs/env1/env1.x86_64
-case_name: 0
-load network: ./NOT_LOADED
-TRAIN INFO	04121408
-train name: Ubuntu20_test
-env_path: ./envs/env1/env1.x86_64
-case_name: 0
-load network: ./NOT_LOADED
-
-state_dim: 8
-action_dim: 8
-action_bound: 8
-=================================================
-TRAIN INFO	04121409
-train name: Ubuntu20_test
-env_path: ./envs/3Dball_example/3dBall1.x86_64
-case_name: 0
-load network: ./NOT_LOADED
-
-state_dim: 8
-action_dim: 8
-action_bound: 8
-=================================================
-TRAIN INFO	04131322
-train name: env1_train1
-env_path: ./envs/env1/env1.x86_64
-case_name: 0
-load network: ./NOT_LOADED
-
-state_dim: 9
-action_dim: 9
-action_bound: 9
-=================================================
-TRAIN INFO	04131323
-train name: env1_train1
-env_path: ./envs/env1/env1.x86_64
-case_name: 0
-load network: ./NOT_LOADED
-
-state_dim: 9
-action_dim: 9
-action_bound: 9
-=================================================
-TRAIN INFO	04151225
-train name: env2.1_2
-env_path: ./envs/env2/env2.x86_64
-case_name: 0
-load network: NOT_LOADED
-TRAIN INFO	04151225
-train name: env2.1_2
-env_path: ./envs/env2/env2.1.x86_64
-case_name: 0
-load network: NOT_LOADED
-TRAIN INFO	04151225
-train name: env2.1_2
-env_path: ./envs/env2.1/env2.1.x86_64
-case_name: 0
-load network: NOT_LOADED
-TRAIN INFO	04151226
-train name: env2.1_2
-env_path: ./envs/env2.1/env2.1.x86_64
-case_name: 2
-load network: NOT_LOADED
-TRAIN INFO	04151228
-train name: env2.1_2
-env_path: ./envs/env2.1/env2.1.x86_64
-case_name: 2
-load network: NOT_LOADED
-TRAIN INFO	04151229
-train name: env2.1_2
-env_path: ./envs/env2.1/env2.1.x86_64
-case_name: 2
-load network: NOT_LOADED
-TRAIN INFO	04151230
-train name: env2.1_2
-env_path: ./envs/env2.1/env2.1.x86_64
-case_name: 2
-load network: NOT_LOADED
-
-state_dim: (84, 84, 3)
-action_dim: 3
+action_dim: 2
 action_bound: 1
-parameters: ./config/parameter.json
+parameters: ./config/SAC_parameter.json
 
 episode: 
 reward: 
 =================================================
-TRAIN INFO	04151234
-train name: env2.1_2
-env_path: ./envs/env2.1/env2.1.x86_64
-case_name: 2
-load network: NOT_LOADED
-
-state_dim: (84, 84, 3)
-action_dim: 3
-action_bound: 1
-parameters: ./config/parameter.json
-
-episode: 
-reward: 
-=================================================
-TRAIN INFO	04151235
-train name: env2.1_2
-env_path: ./envs/env2.1/env2.1.x86_64
-case_name: 2
-load network: NOT_LOADED
-
-state_dim: (84, 84, 3)
-action_dim: 3
-action_bound: 1
-parameters: ./config/parameter.json
-
-episode: 
-reward: 
-=================================================
-TRAIN INFO	04151236
-train name: env2.1_2
-env_path: ./envs/env2.1/env2.1.x86_64
-case_name: 2
-load network: NOT_LOADED
-
-state_dim: (84, 84, 3)
-action_dim: 3
-action_bound: 1
-parameters: ./config/parameter.json
-
-episode: 
-reward: 
-=================================================
-TRAIN INFO	04151236
-train name: env2.1_2
-env_path: ./envs/env2.1/env2.1.x86_64
-case_name: 2
-load network: NOT_LOADED
-
-state_dim: (84, 84, 3)
-action_dim: 3
-action_bound: 1
-parameters: ./config/parameter.json
-
-episode: 
-reward: 
-=================================================
-TRAIN INFO	04151237
-train name: tmp
-env_path: ./envs/env1/env1.x86_64
+TRAIN INFO	04180243
+NN: SAC
+train name: autoDroneGPS_train_test1
+env_path: ./envs/autoDroneGPS/autoDroneGPS.x86_64
 case_name: 0
 load network: NOT_LOADED
 
-state_dim: 9
-action_dim: 3
+state_dim: 21
+action_dim: 2
 action_bound: 1
-parameters: ./config/parameter.json
+parameters: ./config/SAC_parameter.json
 
 episode: 
 reward: 
 =================================================
-TRAIN INFO	04151239
-train name: tmp
-env_path: ./envs/env1/env1.x86_64
+TRAIN INFO	04180245
+NN: SAC
+train name: autoDroneGPS_train_test1
+env_path: ./envs/autoDroneGPS/autoDroneGPS.x86_64
 case_name: 0
 load network: NOT_LOADED
 
-state_dim: 9
-action_dim: 3
+state_dim: 21
+action_dim: 2
 action_bound: 1
-parameters: ./config/parameter.json
+parameters: ./config/SAC_parameter.json
 
 episode: 
 reward: 
 =================================================
-TRAIN INFO	04151240
-train name: env2.1_2
-env_path: ./envs/env2.1/env2.1.x86_64
-case_name: 2
-load network: NOT_LOADED
-
-state_dim: (84, 84, 3)
-action_dim: 3
-action_bound: 1
-parameters: ./config/parameter.json
-
-episode: 
-reward: 
-=================================================
-TRAIN INFO	04151241
-train name: tmp
-env_path: ./envs/env1/env1.x86_64
+TRAIN INFO	04180255
+NN: SAC
+train name: autoDroneGPS_train_test1
+env_path: ./envs/autoDroneGPS/autoDroneGPS.x86_64
 case_name: 0
 load network: NOT_LOADED
 
-state_dim: 9
-action_dim: 3
+state_dim: 21
+action_dim: 2
 action_bound: 1
-parameters: ./config/parameter.json
+parameters: ./config/SAC_parameter.json
 
 episode: 
 reward: 
 =================================================
-TRAIN INFO	04151243
-train name: tmp
-env_path: ./envs/env1/env1.x86_64
+TRAIN INFO	04180255
+NN: SAC
+train name: autoDroneGPS_train_test1
+env_path: ./envs/autoDroneGPS/autoDroneGPS.x86_64
 case_name: 0
 load network: NOT_LOADED
 
-state_dim: 9
-action_dim: 3
+state_dim: 21
+action_dim: 2
 action_bound: 1
-parameters: ./config/parameter.json
+parameters: ./config/SAC_parameter.json
 
 episode: 
 reward: 
