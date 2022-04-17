@@ -7,14 +7,14 @@ from CNN_PPO_agent import CNN_PPO_Agent
 from CV_feature_extractor import *
 import numpy as np
 from datetime import datetime
-
+ 
 def shape_check(array, shape):
     assert array.shape == shape, \
         'shape error | array.shape ' + str(array.shape) + ' shape: ' + str(shape)
 
 def main(args):
     # 환경 정의 및 설정 
-    engine_configuration_channel = EngineConfigurationChannel()
+    engine_configuratioln_channel = EngineConfigurationChannel()
     env = UnityEnvironment(args.env_path, 
                            worker_id=np.random.randint(65535),
                            side_channels=[engine_configuration_channel])
@@ -53,9 +53,12 @@ def main(args):
 
         # state
         state = decision_steps.obs[0][0] # need to check
-        if args.case_num == 1:
-            state = extract(state)
-        state = np.reshape(state, [1, state_dim])
+        if args.case_num == 0 or args.case_num == 1:
+            if args.case_num == 1:
+                state = extract(state)
+            state = np.reshape(state, [1, state_dim])
+        elif args.case_num == 2:
+            state = np.reshape(state, [1] + list(state_dim))
 
         # 파라미터 초기화 
         score, step, done = 0, 0, 0
@@ -90,12 +93,15 @@ def main(args):
             else:
                 next_state = decision_steps.obs[0][0]
 
-            if args.case_num == 1:
-                next_state = extract(next_state)
+            if args.case_num == 0 or args.case_num == 1:
+                if args.case_num == 1:
+                    next_state = extract(next_state)
+                next_state = np.reshape(next_state, [1, state_dim])
+            elif args.case_num == 2:
+                next_state = np.reshape(next_state, [1] + list(state_dim))
 
             # reshaping            
             action = np.reshape(action, [1, action_dim])
-            next_state = np.reshape(next_state, [1, state_dim])
             reward = np.reshape(reward, [1, 1])
             done = np.reshape(done , [1, 1])
 
@@ -163,7 +169,7 @@ if __name__=='__main__':
                         default=20.0, dest='time_scale', action="store",
                         help='to accellerate simul (consider you PC spec)')
     parser.add_argument('--parameters', type=str, 
-                        default='./config/parameters.json', dest='param_path', action="store",
+                        default='./config/parameter.json', dest='param_path', action="store",
                         help='NN parameters')
     
     args = parser.parse_args()

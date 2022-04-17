@@ -22,10 +22,11 @@ env2
 
 env2.1
     state_dim:      
-        raw RGB pixel (256 * 256 * 3)
+        raw RGB pixel (84 * 84 * 1)
     action_dim:     3
     action_bound:   1.0
 
     description:
         used image camera 
-        better resolution of image
+        gray scale
+        

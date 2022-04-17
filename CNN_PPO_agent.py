@@ -1,5 +1,6 @@
 import json
 
+import random
 import numpy as np
 import os
 import tensorflow as tf
@@ -86,7 +87,7 @@ class Critic(tf.keras.Model):
         return y
 
 class CNN_PPO_Agent:
-    def __init__(self, state_dim, action_dim, action_bound):
+    def __init__(self, state_dim, action_dim, action_bound, args):
 
         self.render = False
 
@@ -97,24 +98,25 @@ class CNN_PPO_Agent:
         self.std_bound = [1e-2, 1.0]
 
         # hyperparameters
-        with open("./parameter.json", 'r') as f:
+        with open(args.param_path, 'r') as f:
             parameters = json.load(f)
 
-        self.Actor_learning_rate = parameters['learning_rata']['actor']
+        self.Actor_learning_rate = parameters['learning_rate']['actor']
         self.Critic_learning_rate = parameters['learning_rate']['critic']
         self.gamma = parameters['gamma']
         self.RATIO_CLIPPING = parameters['clip_ratio'] # clip coefficient
-        self.MAX_BATCH_SIZE = parameters['max_batch_size']
+        self.MAX_BUFFER_SIZE = parameters['max_buffer_size']
+        self.batch_size = parameters['batch_size']
         self.EPOCH = parameters['epoch']
         self.GAE_param = parameters['GAE_param']
-        # batch
-        self.batch = []
+        # buffer
+        self.buffer = []
 
         # model define
-        self.Actor_model = Actor(self.action_dim, self.action_bound)
-        self.Critic_model = Critic()
-        self.Actor_model.build(input_shape=(None, self.state_dim))
-        self.Critic_model.build(input_shape=(None, self.state_dim))
+        self.Actor_model = Actor(self.action_dim, self.action_bound, self.state_dim)
+        self.Critic_model = Critic(state_dim)
+        # self.Actor_model.build(input_shape=(None, self.state_dim))
+        # self.Critic_model.build(input_shape=(None, self.state_dim))
         self.Actor_optimizer = Adam(
             learning_rate= self.Actor_learning_rate, 
             # clipnorm=1.0
@@ -124,9 +126,21 @@ class CNN_PPO_Agent:
             # clipnorm=1.0
         )
 
-        # summary
-        self.Actor_model.summary()
-        self.Critic_model.summary()
+        with open("./trained_model/tmp.txt", 'a') as f:
+            f.write(
+                "\n\n" + 
+                "state_dim: " + str(self.state_dim) + '\n' +
+                "action_dim: " + str(self.action_dim) + '\n' +
+                "action_bound: " + str(self.action_bound) + '\n' +
+                "parameters: " + args.param_path + '\n\n' +
+                "episode: \n" +
+                "reward: \n" 
+                "=================================================" 
+            )
+
+        # # summary
+        # self.Actor_model.summary()
+        # self.Critic_model.summary()
 
         print(
             'ENV INFO | ',
@@ -135,9 +149,7 @@ class CNN_PPO_Agent:
             'action_boud: ', self.action_bound
         )
 
-        now = datetime.now()
-        now = now.strftime('%m%d%H%M')
-        self.writer = tf.summary.create_file_writer('summary/DDPG' + now)
+        self.writer = tf.summary.create_file_writer('./summary/' + args.train_name)
         self.model_path = os.path.join(os.getcwd(), 'save_model', 'model')
 
     def log_pdf(self, mu, std, action):
@@ -160,7 +172,7 @@ class CNN_PPO_Agent:
         return action
     
     def sample_append(self, state, action, reward, next_state, done):
-        self.batch.append(
+        self.buffer.append(
             [
                 state,
                 action,
@@ -273,28 +285,30 @@ class CNN_PPO_Agent:
 
     def train(self):
 
-        if len(self.batch) < self.MAX_BATCH_SIZE:
-            return 
-        # print("train!")
-        state_list = [sample[0][0] for sample in self.batch]
-        action_list = [sample[1][0] for sample in self.batch]
-        reward_list = [sample[2][0] for sample in self.batch]
-        next_state_list = [sample[3][0] for sample in self.batch]
-        done_list = [sample[4][0] for sample in self.batch]
-
-        # GAE, target = self.GAE_target(state_list, reward_list, next_state_list, done_list)
-        GAE, target = self.GAE_target_test(state_list, reward_list, next_state_list[self.MAX_BATCH_SIZE-1], done_list[self.MAX_BATCH_SIZE-1])
-
-        mu, std = self.Actor_model(
-            tf.convert_to_tensor(state_list)
-        )
-        old_log_pdf = self.log_pdf(mu, std, action_list)        
-
+        if len(self.buffer) < self.MAX_BUFFER_SIZE:
+            return
+        
         for _ in range(self.EPOCH):
+            # print("train!")  
+            batch = random.sample(self.buffer, self.batch_size) 
+            state_list = [sample[0][0] for sample in batch]
+            action_list = [sample[1][0] for sample in batch]
+            reward_list = [sample[2][0] for sample in batch]
+            next_state_list = [sample[3][0] for sample in batch]
+            done_list = [sample[4][0] for sample in batch]
+
+            # GAE, target = self.GAE_target(state_list, reward_list, next_state_list, done_list)
+            GAE, target = self.GAE_target_test(state_list, reward_list, next_state_list[self.batch_size-1], done_list[self.batch_size-1])
+
+            mu, std = self.Actor_model(
+                tf.convert_to_tensor(state_list)
+            )
+            old_log_pdf = self.log_pdf(mu, std, action_list)        
+
             self.Critic_train(target, state_list)
             self.Actor_train(state_list, action_list, old_log_pdf, GAE)
-        
-        self.batch.clear()
+            
+        self.buffer.clear()
 
     # 텐서보드에 학습 정보를 기록
     def draw_tensorboard(self, score, step, episode):
