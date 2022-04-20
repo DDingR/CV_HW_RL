@@ -29,4 +29,15 @@ env2.1
     description:
         used image camera 
         gray scale
+
+env1.1
+    state_dim:      9
+        agent_pos, target_pos, agent_vel
+    action_dim:     3
+        xyz quaternion
+    action_bound:   1.0
+
+    description:
+        used raycast (hit box)
+        instantiate not use
         

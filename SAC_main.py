@@ -21,10 +21,10 @@ def main(args):
     env.reset()
 
     # agent
-    action_dim = 2 # xyz Quart...
+    action_dim = 3 # xyz Quart...
     action_bound = 1 # max_input 
     if args.case_num ==  0:
-        state_dim = 21 # not defined
+        state_dim = 6 # not defined
         agent = DNN_SAC_Agent(state_dim, action_dim, action_bound, args)
     elif args.case_num ==  1:
         state_dim = 3 # not defined

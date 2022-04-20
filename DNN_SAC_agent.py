@@ -12,8 +12,8 @@ import random
 
 def shape_checker(array, shape):
     return
-    assert array.shape == shape, \
-        'SHAPE ERROR | array shape: ' + str(array.shape) + 'given shape: ' + str(shape)
+    # assert array.shape == shape, \
+    #     'SHAPE ERROR | array shape: ' + str(array.shape) + 'given shape: ' + str(shape)
 
 class Actor(tf.keras.Model):
     def __init__(self, action_dim, action_bound):
