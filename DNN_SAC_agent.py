@@ -123,8 +123,8 @@ class DNN_SAC_Agent:
             1
         )        
         self.update_target_model(
-            self.Critic_model_1,
-            self.Critic_model_1_target,
+            self.Critic_model_2,
+            self.Critic_model_2_target,
             1
         )
 
