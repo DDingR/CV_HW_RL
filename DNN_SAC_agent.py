@@ -21,9 +21,8 @@ class Actor(tf.keras.Model):
         self.action_dim = action_dim
         self.action_bound = action_bound
         self.std_bound = [1e-2, 1.0]
-        self.fc1 = Dense(128, activation='relu')
-        self.fc2 = Dense(128, activation='relu')
-        self.fc3 = Dense(128, activation='relu')
+        self.fc1 = Dense(64, activation='relu')
+        self.fc2 = Dense(64, activation='relu')
         self.fc_out_mu = Dense(
             self.action_dim,
             activation= 'tanh'
@@ -36,7 +35,6 @@ class Actor(tf.keras.Model):
     def call(self, x):
         x = self.fc1(x)
         x = self.fc2(x)
-        x = self.fc3(x)
         mu = self.fc_out_mu(x)
         std = self.fc_out_std(x)
 
@@ -48,10 +46,9 @@ class Actor(tf.keras.Model):
 class Critic(tf.keras.Model):
     def __init__(self):
         super(Critic, self).__init__()
-        self.fc1_state = Dense(64, activation= 'relu')
-        self.fc1_action = Dense(64, activation= 'relu')
-        self.fc2 = Dense(128, activation= 'relu')
-        self.fc3 = Dense(128, activation= 'relu')
+        self.fc1_state = Dense(32, activation= 'relu')
+        self.fc1_action = Dense(32, activation= 'relu')
+        self.fc2 = Dense(64, activation= 'relu')
         self.fc_out = Dense(
             1
         )
@@ -61,7 +58,6 @@ class Critic(tf.keras.Model):
         h2 = self.fc1_action(x[1])
         h = concatenate([h1, h2], axis=-1)
         h = self.fc2(h)
-        h = self.fc3(h)
         y = self.fc_out(h)
 
         return y

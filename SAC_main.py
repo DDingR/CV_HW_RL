@@ -3,9 +3,11 @@ from mlagents_envs.side_channel.engine_configuration_channel import EngineConfig
 
 import argparse
 from DNN_SAC_agent import DNN_SAC_Agent
+from CNN_SAC_agent import CNN_SAC_Agent
 from CV_feature_extractor import *
 import numpy as np
 from datetime import datetime
+
 
 def shape_checker(array, shape):
     assert array.shape == shape, \
@@ -21,17 +23,17 @@ def main(args):
     env.reset()
 
     # agent
-    action_dim = 3 # xyz Quart...
+    action_dim = 2 # xyz Quart...
     action_bound = 1 # max_input 
     if args.case_num ==  0:
-        state_dim = 9 # not defined
+        state_dim = 6 # not defined
         agent = DNN_SAC_Agent(state_dim, action_dim, action_bound, args)
     elif args.case_num ==  1:
-        state_dim = 3 # not defined
+        state_dim = 40 # not defined
         agent = DNN_SAC_Agent(state_dim, action_dim, action_bound, args)
     elif args.case_num == 2:
-        state_dim = (84, 84, 3) # not defined
-        agent = DNN_SAC_Agent(state_dim, action_dim, action_bound, args)
+        state_dim = (1024, 1024, 4) # not defined
+        agent = CNN_SAC_Agent(state_dim, action_dim, action_bound, args)
     else:
         raise Exception("check case_num you trying (sould be in range[0:2]")
 
@@ -41,22 +43,28 @@ def main(args):
 
     score_list = []
     max_score = 1e-9
-    EPISODE = 100000
+    EPISODE = 1000000
+
+
+
 
     # 전체 진행을 위한 반복문 
     for e in range(EPISODE):
+        # initial action
+        action = np.array([[0,0]])
+
         # 환경 초기화 
         env.reset()
 
         # decision_steps와 terminal_steps 정의
         decision_steps, terminal_steps = env.get_steps(behavior_name)
-
+        
         # state
         state = decision_steps.obs[0][0] # need to check
-        if args.case_num == 0 or args.case_num == 1:
-            if args.case_num == 1:
-                state = extract(state)
+        if args.case_num == 0:
             state = np.reshape(state, [1, state_dim])
+        elif args.case_num == 1:
+            state = extract(state)
         elif args.case_num == 2:
             state = np.reshape(state, [1] + list(state_dim))
 
@@ -67,7 +75,29 @@ def main(args):
         while not done:
             step += 1
 
-            # get action
+            # state = np.array(state) * 255.0
+            # state = np.uint8(state)
+            # cv2.imshow("test", np.uint8(state[0]))
+            # cv2.waitKey(0)
+
+            # tmp = np.array(state[0])
+            # tmp = cv2.equalizeHist(tmp)
+            # print(np.array(tmp).shape)
+            # tmp = np.uint8(tmp*255.0)
+            # print(tmp)
+            # tmp = cv2.imread(tmp, cv2.IMREAD_GRAYSCALE)
+
+            # tmp = extract(tmp)
+
+            # cv2.imwrite('./img/tmp1.png', tmp[:,:,0])
+            # cv2.imwrite('./img/tmp2.png', tmp[:,:,1])
+            # cv2.imwrite('./img/tmp3.png', tmp[:,:,2])
+            # cv2.imwrite('./img/tmp4.png', tmp[:,:,3])
+
+            # cv2.imshow("test", tmp)
+            # cv2.waitKey(0)
+
+            # get action            
             action = agent.get_action(state)
             action = np.clip(action, -action_bound, action_bound)
             action = np.reshape(action, [1, action_dim])
@@ -82,7 +112,7 @@ def main(args):
 
             # 행동 수행 후 에이전트의 정보 (상태, 보상, 종료 여부) 취득
             decision_steps, terminal_steps = env.get_steps(behavior_name)
-            
+
             # done, reward check
             done = len(terminal_steps.agent_id)>0
             reward = terminal_steps.reward[0] if done else decision_steps.reward[0]
@@ -93,10 +123,10 @@ def main(args):
             else:
                 next_state = decision_steps.obs[0][0]
 
-            if args.case_num == 0 or args.case_num == 1:
-                if args.case_num == 1:
+            if args.case_num == 0:
+                next_state = np.reshape(next_state, [1, state_dim])  
+            elif args.case_num == 1:
                     next_state = extract(next_state)
-                next_state = np.reshape(next_state, [1, state_dim])
             elif args.case_num == 2:
                 next_state = np.reshape(next_state, [1] + list(state_dim))
 
@@ -104,6 +134,7 @@ def main(args):
             action = np.reshape(action, [1, action_dim])
             reward = np.reshape(reward, [1, 1])
             done = np.reshape(done , [1, 1])
+
 
             # train
             if args.train:
@@ -114,6 +145,7 @@ def main(args):
                     next_state,
                     done
                 )
+                
                 agent.train()
 
             # for next_step

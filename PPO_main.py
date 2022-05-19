@@ -54,9 +54,9 @@ def main(args):
         # state
         state = decision_steps.obs[0][0] # need to check
         if args.case_num == 0 or args.case_num == 1:
+            state = np.reshape(state, [1, state_dim])
             if args.case_num == 1:
                 state = extract(state)
-            state = np.reshape(state, [1, state_dim])
         elif args.case_num == 2:
             state = np.reshape(state, [1] + list(state_dim))
 
@@ -68,6 +68,7 @@ def main(args):
             step += 1
 
             # get action
+
             action = agent.get_action(state)
             action = np.clip(action, -action_bound, action_bound)
             action = np.reshape(action, [1, action_dim])
@@ -94,9 +95,9 @@ def main(args):
                 next_state = decision_steps.obs[0][0]
 
             if args.case_num == 0 or args.case_num == 1:
+                next_state = np.reshape(next_state, [1, state_dim])
                 if args.case_num == 1:
                     next_state = extract(next_state)
-                next_state = np.reshape(next_state, [1, state_dim])
             elif args.case_num == 2:
                 next_state = np.reshape(next_state, [1] + list(state_dim))
 

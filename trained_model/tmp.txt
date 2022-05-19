@@ -353,3 +353,4434 @@ parameters: ./config/SAC_parameter.json
 episode: 
 reward: 
 =================================================
+TRAIN INFO	05031339
+NN: SAC
+train name: auto_drone_tmp
+env_path: ./envs/autoDrone_GPS_ver1/autoDroneGPS.x86_64
+case_name: 0
+load network: NOT_LOADED
+
+state_dim: 21
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05062212
+NN: SAC
+train name: 05062212
+env_path: ./envs/3dBall_visual/3dBall_visual.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 1)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05062213
+NN: SAC
+train name: 05062213
+env_path: ./envs/3dBall_visual/3dBall_visual.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 1)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05062213
+NN: SAC
+train name: 05062213
+env_path: ./envs/3dBall_visual/3dBall_visual.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 1)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05071502
+NN: SAC
+train name: 05071502
+env_path: ./envs/3dBall_visual/3dBall_visual.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 1)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05071506
+NN: SAC
+train name: 05071506
+env_path: ./envs/3dBall_vec/3dBall_vec.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 1)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05071506
+NN: SAC
+train name: 05071506
+env_path: ./envs/3dBall_vec/3dBall_vec.x86_64
+case_name: 0
+load network: NOT_LOADED
+
+state_dim: 8
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05072320
+NN: SAC
+train name: 05072320
+env_path: ./envs/3dBall_vec/3dBall_vec.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 1)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05072320
+NN: SAC
+train name: 05072320
+env_path: ./envs/3dBall_visual/3dBall_visual.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 1)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05072321
+NN: SAC
+train name: 05072321
+env_path: ./envs/3dBall_visual/3dBall_visual.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 1)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05072321
+NN: SAC
+train name: 05072321
+env_path: ./envs/3dBall_visual/3dBall_visual.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 1)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05072323
+NN: SAC
+train name: 05072323
+env_path: ./envs/3dBall_visual/3dBall_visual.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 1)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05072324
+NN: SAC
+train name: 05072324
+env_path: ./envs/3dBall_visual/3dBall_visual.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 1)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05072326
+NN: SAC
+train name: 05072326
+env_path: ./envs/env2.1/env2.1.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 1)
+action_dim: 3
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05072329
+NN: SAC
+train name: 05072329
+env_path: ./envs/3dBall_visual/3dBall_visual.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 1)
+action_dim: 3
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05072329
+NN: SAC
+train name: 05072329
+env_path: ./envs/3dBall_visual/3dBall_visual.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 1)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05072330
+NN: SAC
+train name: 05072330
+env_path: ./envs/3dBall_visual/3dBall_visual.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 1)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05072330
+NN: SAC
+train name: 05072330
+env_path: ./envs/3dBall_visual/3dBall_visual.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 1)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05072330
+NN: SAC
+train name: 05072330
+env_path: ./envs/3dBall_visual/3dBall_visual.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 1)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05072330
+NN: SAC
+train name: 05072330
+env_path: ./envs/3dBall_visual/3dBall_visual.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 1)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05072331
+NN: SAC
+train name: 05072331
+env_path: ./envs/3dBall_visual/3dBall_visual.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 1)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05072332
+NN: SAC
+train name: 05072332
+env_path: ./envs/3dBall_visual/3dBall_visual.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 1)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05072335
+NN: SAC
+train name: 05072335
+env_path: ./envs/3dBall_visual2/3dBall_visual.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 1)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05072337
+NN: SAC
+train name: 05072337
+env_path: ./envs/3dBall_visual3/3dBall_visual.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 1)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05072342
+NN: SAC
+train name: 05072342
+env_path: ./envs/3dBall_visual_tc/3dBall_visual_tc.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 1)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05072343
+NN: SAC
+train name: 05072343
+env_path: ./envs/3dBall_visual_tc/3dBall_visual_tc.x86_64
+case_name: 2
+load network: NOT_LOADED
+TRAIN INFO	05072343
+NN: SAC
+train name: 05072343
+env_path: ./envs/3dBall_visual_tc/3dBall_visual_tc.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 3)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05072345
+NN: SAC
+train name: 05072345
+env_path: ./envs/3dBall_visual_tc/3dBall_visual_tc.x86_64
+case_name: 2
+load network: NOT_LOADED
+TRAIN INFO	05072345
+NN: SAC
+train name: 05072345
+env_path: ./envs/3dBall_visual_tc/3dBall_visual_tc.x86_64
+case_name: 2
+load network: NOT_LOADED
+TRAIN INFO	05072345
+NN: SAC
+train name: 05072345
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+TRAIN INFO	05072345
+NN: SAC
+train name: 05072345
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 1)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05072346
+NN: SAC
+train name: 05072346
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 3)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05072346
+NN: SAC
+train name: 05072346
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 3)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05072347
+NN: SAC
+train name: 05072347
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 3)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05072347
+NN: SAC
+train name: 05072347
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 3)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05072348
+NN: SAC
+train name: 05072348
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 3)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05072348
+NN: SAC
+train name: 05072348
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 3)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05072349
+NN: SAC
+train name: 05072349
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 3)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05072349
+NN: SAC
+train name: 05072349
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 3)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05072350
+NN: SAC
+train name: 05072350
+env_path: ./envs/env2.1/env2.1.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 3)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05072350
+NN: SAC
+train name: 05072350
+env_path: ./envs/env2.1/env2.1.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 3)
+action_dim: 3
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05072351
+NN: SAC
+train name: 05072351
+env_path: ./envs/env2.1/env2.1.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 3)
+action_dim: 3
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05072352
+NN: SAC
+train name: 05072352
+env_path: ./envs/env2.1/env2.1.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 3)
+action_dim: 3
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05072353
+NN: SAC
+train name: 05072353
+env_path: ./envs/env2.1/env2.1.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 3)
+action_dim: 3
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05072357
+NN: SAC
+train name: 05072357
+env_path: ./envs/env2.1/env2.1.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 3)
+action_dim: 3
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05072357
+NN: SAC
+train name: 05072357
+env_path: ./envs/env2.1/env2.1.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 3)
+action_dim: 3
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05072358
+NN: SAC
+train name: 05072358
+env_path: ./envs/env2.1/env2.1.x86_64
+case_name: 2
+load network: NOT_LOADED
+TRAIN INFO	05072358
+NN: SAC
+train name: 05072358
+env_path: ./envs/env2.1/env2.1.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 3)
+action_dim: 3
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05072358
+NN: SAC
+train name: 05072358
+env_path: ./envs/env2.1/env2.1.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 3)
+action_dim: 3
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05080000
+NN: SAC
+train name: 05080000
+env_path: ./envs/env2.1/env2.1.x86_64
+case_name: 2
+load network: NOT_LOADED
+TRAIN INFO	05080000
+NN: SAC
+train name: 05080000
+env_path: ./envs/env2.1/env2.1.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 3)
+action_dim: 3
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05080002
+NN: SAC
+train name: 05080002
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_.x86_64
+case_name: 2
+load network: NOT_LOADED
+TRAIN INFO	05080002
+NN: SAC
+train name: 05080002
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_.x86_64
+case_name: 2
+load network: NOT_LOADED
+TRAIN INFO	05080003
+NN: SAC
+train name: 05080003
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 3)
+action_dim: 3
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05080003
+NN: SAC
+train name: 05080003
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 1)
+action_dim: 3
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05080003
+NN: SAC
+train name: 05080003
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 1)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05080005
+NN: SAC
+train name: 05080005
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 1)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05080007
+NN: SAC
+train name: 05080007
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 1)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05080009
+NN: SAC
+train name: 05080009
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 1)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05080010
+NN: SAC
+train name: 05080010
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 1)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05080012
+NN: SAC
+train name: 05080012
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 1)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05080013
+NN: SAC
+train name: 05080013
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 1)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05080014
+NN: SAC
+train name: 05080014
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 1)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05080015
+NN: SAC
+train name: 05080015
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 1)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05080016
+NN: SAC
+train name: 05080016
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 1)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05080016
+NN: SAC
+train name: 05080016
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 1)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05080018
+NN: SAC
+train name: 05080018
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 1)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05080019
+NN: SAC
+train name: 05080019
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 1)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05080020
+NN: SAC
+train name: 05080020
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 1)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05080033
+NN: SAC
+train name: 05080033
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 1)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081456
+NN: SAC
+train name: 05081456
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 1)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081506
+NN: SAC
+train name: 05081506
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081507
+NN: SAC
+train name: 05081507
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081508
+NN: SAC
+train name: 05081508
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081512
+NN: SAC
+train name: 05081512
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081522
+NN: SAC
+train name: 05081522
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081522
+NN: SAC
+train name: 05081522
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081523
+NN: SAC
+train name: 05081523
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081523
+NN: SAC
+train name: 05081523
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081524
+NN: SAC
+train name: 05081524
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081527
+NN: SAC
+train name: 05081527
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081527
+NN: SAC
+train name: 05081527
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081528
+NN: SAC
+train name: 05081528
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081529
+NN: SAC
+train name: 05081529
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081530
+NN: SAC
+train name: 05081530
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081530
+NN: SAC
+train name: 05081530
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081530
+NN: SAC
+train name: 05081530
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081531
+NN: SAC
+train name: 05081531
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081532
+NN: SAC
+train name: 05081532
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081532
+NN: SAC
+train name: 05081532
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081533
+NN: SAC
+train name: 05081533
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081534
+NN: SAC
+train name: 05081534
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081535
+NN: SAC
+train name: 05081535
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081536
+NN: SAC
+train name: 05081536
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081541
+NN: SAC
+train name: 05081541
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081551
+NN: SAC
+train name: 05081551
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+TRAIN INFO	05081552
+NN: SAC
+train name: 05081552
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081552
+NN: SAC
+train name: 05081552
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081553
+NN: SAC
+train name: 05081553
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081554
+NN: SAC
+train name: 05081554
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081555
+NN: SAC
+train name: 05081555
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081555
+NN: SAC
+train name: 05081555
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081556
+NN: SAC
+train name: 05081556
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081558
+NN: SAC
+train name: 05081558
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081559
+NN: SAC
+train name: 05081559
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081600
+NN: SAC
+train name: 05081600
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081600
+NN: SAC
+train name: 05081600
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081601
+NN: SAC
+train name: 05081601
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081601
+NN: SAC
+train name: 05081601
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081604
+NN: SAC
+train name: 05081604
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081605
+NN: SAC
+train name: 05081605
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081605
+NN: SAC
+train name: 05081605
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081606
+NN: SAC
+train name: 05081606
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081606
+NN: SAC
+train name: 05081606
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081606
+NN: SAC
+train name: 05081606
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081606
+NN: SAC
+train name: 05081606
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081607
+NN: SAC
+train name: 05081607
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081608
+NN: SAC
+train name: 05081608
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081608
+NN: SAC
+train name: 05081608
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081609
+NN: SAC
+train name: 05081609
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+TRAIN INFO	05081610
+NN: SAC
+train name: 05081610
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081611
+NN: SAC
+train name: 05081611
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081612
+NN: SAC
+train name: 05081612
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081613
+NN: SAC
+train name: 05081613
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081615
+NN: SAC
+train name: 05081615
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081618
+NN: SAC
+train name: 05081618
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081619
+NN: SAC
+train name: 05081619
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081620
+NN: SAC
+train name: 05081620
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081621
+NN: SAC
+train name: 05081621
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081626
+NN: SAC
+train name: 05081626
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (84, 84, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081626
+NN: SAC
+train name: 05081626
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (1024, 10274, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081626
+NN: SAC
+train name: 05081626
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (1024, 1024, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081630
+NN: SAC
+train name: 05081630
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 0
+load network: NOT_LOADED
+
+state_dim: 8
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081630
+NN: SAC
+train name: 05081630
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (1024, 1024, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081630
+NN: SAC
+train name: 05081630
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (1024, 1024, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081631
+NN: SAC
+train name: 05081631
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (1024, 1024, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081631
+NN: SAC
+train name: 05081631
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (1024, 1024, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081632
+NN: SAC
+train name: 05081632
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (1024, 1024, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081632
+NN: SAC
+train name: 05081632
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+TRAIN INFO	05081632
+NN: SAC
+train name: 05081632
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (1024, 1024, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081633
+NN: SAC
+train name: 05081633
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (1024, 1024, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081633
+NN: SAC
+train name: 05081633
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+TRAIN INFO	05081633
+NN: SAC
+train name: 05081633
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+TRAIN INFO	05081633
+NN: SAC
+train name: 05081633
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (1024, 1024, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081634
+NN: SAC
+train name: 05081634
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (1024, 1024, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081636
+NN: SAC
+train name: 05081636
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (1024, 1024, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081636
+NN: SAC
+train name: 05081636
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (1024, 1024, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081640
+NN: SAC
+train name: 05081640
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (1024, 1024, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081641
+NN: SAC
+train name: 05081641
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (1024, 1024, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081643
+NN: SAC
+train name: 05081643
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (1024, 1024, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081644
+NN: SAC
+train name: 05081644
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+TRAIN INFO	05081644
+NN: SAC
+train name: 05081644
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (1024, 1024, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081646
+NN: SAC
+train name: 05081646
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (1024, 1024, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081649
+NN: SAC
+train name: 05081649
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (1024, 1024, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081650
+NN: SAC
+train name: 05081650
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (1024, 1024, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081656
+NN: SAC
+train name: 05081656
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 2
+load network: NOT_LOADED
+
+state_dim: (1024, 1024, 4)
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081656
+NN: SAC
+train name: 05081656
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 16
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081657
+NN: SAC
+train name: 05081657
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+TRAIN INFO	05081657
+NN: SAC
+train name: 05081657
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+TRAIN INFO	05081657
+NN: SAC
+train name: 05081657
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 16
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081658
+NN: SAC
+train name: 05081658
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 16
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081700
+NN: SAC
+train name: 05081700
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 16
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081701
+NN: SAC
+train name: 05081701
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 16
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081702
+NN: SAC
+train name: 05081702
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 16
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081703
+NN: SAC
+train name: 05081703
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 16
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081704
+NN: SAC
+train name: 05081704
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 16
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081705
+NN: SAC
+train name: 05081705
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 16
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081706
+NN: SAC
+train name: 05081706
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+TRAIN INFO	05081706
+NN: SAC
+train name: 05081706
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 16
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081708
+NN: SAC
+train name: 05081708
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 16
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081709
+NN: SAC
+train name: 05081709
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 16
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081709
+NN: SAC
+train name: 05081709
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 16
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081711
+NN: SAC
+train name: 05081711
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 16
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081712
+NN: SAC
+train name: 05081712
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 16
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081714
+NN: SAC
+train name: 05081714
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 16
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081715
+NN: SAC
+train name: 05081715
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 16
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081716
+NN: SAC
+train name: 05081716
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 16
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081720
+NN: SAC
+train name: 05081720
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 16
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081720
+NN: SAC
+train name: 05081720
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 16
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081721
+NN: SAC
+train name: 05081721
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 16
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081722
+NN: SAC
+train name: 05081722
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 16
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081724
+NN: SAC
+train name: 05081724
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 16
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081724
+NN: SAC
+train name: 05081724
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 16
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081725
+NN: SAC
+train name: 05081725
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 16
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081727
+NN: SAC
+train name: 05081727
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 16
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081728
+NN: SAC
+train name: 05081728
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 16
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081729
+NN: SAC
+train name: 05081729
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 16
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081731
+NN: SAC
+train name: 05081731
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 16
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081731
+NN: SAC
+train name: 05081731
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 16
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081732
+NN: SAC
+train name: 05081732
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 16
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081732
+NN: SAC
+train name: 05081732
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 16
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081732
+NN: SAC
+train name: 05081732
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 16
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081733
+NN: SAC
+train name: 05081733
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 16
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081733
+NN: SAC
+train name: 05081733
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 16
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081734
+NN: SAC
+train name: 05081734
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 16
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081734
+NN: SAC
+train name: 05081734
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 16
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081735
+NN: SAC
+train name: 05081735
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 16
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081738
+NN: SAC
+train name: 05081738
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 16
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05081738
+NN: SAC
+train name: 05081738
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 16
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05091010
+NN: SAC
+train name: 05091010
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 16
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05091011
+NN: SAC
+train name: 05091011
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 16
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05091013
+NN: SAC
+train name: 05091013
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 16
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05091016
+NN: SAC
+train name: 05091016
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 16
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05091811
+NN: SAC
+train name: 05091811
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 20
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05091812
+NN: SAC
+train name: 05091812
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 20
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05092144
+NN: SAC
+train name: 05092144
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 20
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05092148
+NN: SAC
+train name: 05092148
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 20
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05092150
+NN: SAC
+train name: 05092150
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+TRAIN INFO	05092150
+NN: SAC
+train name: 05092150
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 20
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05092150
+NN: SAC
+train name: 05092150
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 20
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05092151
+NN: SAC
+train name: 05092151
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 20
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05092153
+NN: SAC
+train name: 05092153
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 20
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05092153
+NN: SAC
+train name: 05092153
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 20
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05092154
+NN: SAC
+train name: 05092154
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 20
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05092159
+NN: SAC
+train name: 05092159
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 20
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05092159
+NN: SAC
+train name: 05092159
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+TRAIN INFO	05092159
+NN: SAC
+train name: 05092159
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 20
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05092200
+NN: SAC
+train name: 05092200
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 20
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05092207
+NN: SAC
+train name: 05092207
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 20
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05092208
+NN: SAC
+train name: 05092208
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 20
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05092211
+NN: SAC
+train name: 05092211
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 20
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05092211
+NN: SAC
+train name: 05092211
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 20
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05092212
+NN: SAC
+train name: 05092212
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 20
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05092215
+NN: SAC
+train name: 05092215
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 20
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05092215
+NN: SAC
+train name: 05092215
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 20
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05092217
+NN: SAC
+train name: 05092217
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 20
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05092217
+NN: SAC
+train name: 05092217
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 20
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05092220
+NN: SAC
+train name: 05092220
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 20
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05092221
+NN: SAC
+train name: 05092221
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 20
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05092225
+NN: SAC
+train name: 05092225
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 20
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05092225
+NN: SAC
+train name: 05092225
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 20
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05092230
+NN: SAC
+train name: 05092230
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05092231
+NN: SAC
+train name: 05092231
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05092231
+NN: SAC
+train name: 05092231
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05101015
+NN: SAC
+train name: 05101015
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05101025
+NN: SAC
+train name: 05101025
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05101026
+NN: SAC
+train name: 05101026
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05101257
+NN: SAC
+train name: 05101257
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05101257
+NN: SAC
+train name: 05101257
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05101300
+NN: SAC
+train name: 05101300
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05101300
+NN: SAC
+train name: 05101300
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05101301
+NN: SAC
+train name: 05101301
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05101301
+NN: SAC
+train name: 05101301
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+TRAIN INFO	05101301
+NN: SAC
+train name: 05101301
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05101302
+NN: SAC
+train name: 05101302
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05101302
+NN: SAC
+train name: 05101302
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05101303
+NN: SAC
+train name: 05101303
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05101304
+NN: SAC
+train name: 05101304
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05101304
+NN: SAC
+train name: 05101304
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05101304
+NN: SAC
+train name: 05101304
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+TRAIN INFO	05101305
+NN: SAC
+train name: 05101305
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05101308
+NN: SAC
+train name: 05101308
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05101308
+NN: SAC
+train name: 05101308
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05101309
+NN: SAC
+train name: 05101309
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05101312
+NN: SAC
+train name: 05101312
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05111812
+NN: SAC
+train name: 05111812
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05111812
+NN: SAC
+train name: 05111812
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05111813
+NN: SAC
+train name: 05111813
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05111814
+NN: SAC
+train name: 05111814
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05111814
+NN: SAC
+train name: 05111814
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05111815
+NN: SAC
+train name: 05111815
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05111816
+NN: SAC
+train name: 05111816
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05111816
+NN: SAC
+train name: 05111816
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05111817
+NN: SAC
+train name: 05111817
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05111819
+NN: SAC
+train name: 05111819
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05111819
+NN: SAC
+train name: 05111819
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05111820
+NN: SAC
+train name: 05111820
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05111824
+NN: SAC
+train name: 05111824
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05111827
+NN: SAC
+train name: 05111827
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05111828
+NN: SAC
+train name: 05111828
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05111839
+NN: SAC
+train name: 05111839
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+TRAIN INFO	05111839
+NN: SAC
+train name: 05111839
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+TRAIN INFO	05111839
+NN: SAC
+train name: 05111839
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05111839
+NN: SAC
+train name: 05111839
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05111840
+NN: SAC
+train name: 05111840
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+TRAIN INFO	05111840
+NN: SAC
+train name: 05111840
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05111840
+NN: SAC
+train name: 05111840
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05111842
+NN: SAC
+train name: 05111842
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+TRAIN INFO	05111842
+NN: SAC
+train name: 05111842
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05111843
+NN: SAC
+train name: 05111843
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05111843
+NN: SAC
+train name: 05111843
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05111844
+NN: SAC
+train name: 05111844
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05161654
+NN: SAC
+train name: 05161654
+env_path: ./envs/env1/env1.x86_64
+case_name: 0
+load network: NOT_LOADED
+
+state_dim: 6
+action_dim: 3
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05161842
+NN: SAC
+train name: 05161842
+env_path: ./envs/env1/env1.x86_64
+case_name: 0
+load network: NOT_LOADED
+
+state_dim: 6
+action_dim: 3
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05161843
+NN: SAC
+train name: 05161843
+env_path: ./envs/env1/env1.x86_64
+case_name: 0
+load network: NOT_LOADED
+
+state_dim: 6
+action_dim: 3
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05171426
+NN: SAC
+train name: 05171426
+env_path: ./envs/3dball_visual_gs/3dball_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+TRAIN INFO	05171426
+NN: SAC
+train name: 05171426
+env_path: ./envs/3dball_visual_gs/3dball_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+TRAIN INFO	05171427
+NN: SAC
+train name: 05171427
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05171439
+NN: SAC
+train name: 05171439
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05171444
+NN: SAC
+train name: 05171444
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+TRAIN INFO	05171444
+NN: SAC
+train name: 05171444
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05171445
+NN: SAC
+train name: 05171445
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05171445
+NN: SAC
+train name: 05171445
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05171449
+NN: SAC
+train name: 05171449
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05171449
+NN: SAC
+train name: 05171449
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+TRAIN INFO	05171449
+NN: SAC
+train name: 05171449
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05171450
+NN: SAC
+train name: 05171450
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05171451
+NN: SAC
+train name: 05171451
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05171452
+NN: SAC
+train name: 05171452
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05171452
+NN: SAC
+train name: 05171452
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05171453
+NN: SAC
+train name: 05171453
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05171510
+NN: SAC
+train name: 05171510
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05171510
+NN: SAC
+train name: 05171510
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+TRAIN INFO	05171510
+NN: SAC
+train name: 05171510
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05171511
+NN: SAC
+train name: 05171511
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05171511
+NN: SAC
+train name: 05171511
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05171512
+NN: SAC
+train name: 05171512
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+TRAIN INFO	05171512
+NN: SAC
+train name: 05171512
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05171513
+NN: SAC
+train name: 05171513
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05171514
+NN: SAC
+train name: 05171514
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 60
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05171515
+NN: SAC
+train name: 05171515
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 40
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05171522
+NN: SAC
+train name: 05171522
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 40
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05171558
+NN: SAC
+train name: 05171558
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 40
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
+TRAIN INFO	05171645
+NN: SAC
+train name: 05171645
+env_path: ./envs/3dBall_visual_gs/3dBall_visual_gs.x86_64
+case_name: 1
+load network: NOT_LOADED
+
+state_dim: 40
+action_dim: 2
+action_bound: 1
+parameters: ./config/SAC_parameter.json
+
+episode: 
+reward: 
+=================================================
